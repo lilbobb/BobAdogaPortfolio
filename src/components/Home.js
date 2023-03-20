@@ -24,7 +24,7 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <img src={pic} alt="profilePhoto" />;
+            <img src={pic} alt="profilePhoto" />
           </div>
         </section>
         <section className="second-div">
