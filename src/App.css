@@ -599,28 +599,6 @@ input::placeholder {
 }
 
 @media (max-width: 720px) {
-  .fa-bars {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 2em;
-    cursor: pointer;
-    color: #ffffff;
-    background-color: #230465;
-  }
-
-  .toggle {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 20px;
-    font-size: 2em;
-    cursor: pointer;
-    background-color: #fff;
-  }
-
   .navbar-bars {
     display: flex;
   }
