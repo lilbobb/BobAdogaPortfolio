@@ -593,15 +593,37 @@ input::placeholder {
   color: #e5e5e5;
   padding: 10px;
 }
+
+.toggle {
+  display: none;
+}
+
 @media (max-width: 720px) {
-.navbar-bars{
-  display: flex;
-}
+  .fa-bars {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2em;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #230465;
+  }
 
-.navbar-links{
-  /* display: none; */
-}
+  .toggle {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 2em;
+    cursor: pointer;
+    background-color: #fff;
+  }
 
+  .navbar-bars {
+    display: flex;
+  }
 
   .navbar {
     flex-direction: column;
